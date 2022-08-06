@@ -1,0 +1,26 @@
+p{
+    width: 100%;
+}
+
+.fullContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+    padding: .75rem 0rem;
+
+}
+
+.label{
+    display: flex;
+    flex-direction: row;
+    width: 6rem;
+    text-align: right;
+    padding: 0rem 1rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%
+}

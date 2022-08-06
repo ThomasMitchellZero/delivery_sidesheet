@@ -1,6 +1,7 @@
 .header{
     background-color: #E6ECF9;
     display: flex;
+    box-sizing: border-box;
     flex-direction: row;
     align-items: center;
     padding: .25rem .5rem;

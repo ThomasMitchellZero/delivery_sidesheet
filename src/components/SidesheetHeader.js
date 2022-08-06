@@ -9,7 +9,7 @@ const SidesheetHeader = (props) => {
         <MdClose/>
         </div>
 
-      <p className={classes.content}>Delivery Details</p>
+      <p className={parentclasses.header_text}>Delivery Details</p>
     </div>
   );
 };
