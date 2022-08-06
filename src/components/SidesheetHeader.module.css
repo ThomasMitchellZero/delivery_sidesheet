@@ -1,0 +1,13 @@
+.header{
+    background-color: #E6ECF9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .25rem .5rem;
+    width: 100%;
+}
+
+.icon{
+    margin: 1rem;
+
+}
