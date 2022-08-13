@@ -1,7 +1,7 @@
 import SidesheetHeader from "./SidesheetHeader";
-import Spacer from "./Spacer";
+import Spacer from "./UI/Spacer"
 import SheetLI from "./SheetLI";
-import DeliveryStatus from "./DeliveryStatus";
+import ActionMenu from "./Action_Menu/ActionMenu"
 
 import classes from "./Sidesheet.module.css";
 
@@ -28,7 +28,7 @@ const Sidesheet = (props) => {
         <SheetLI label="Type" content="Box Truck, Dock Required" />
         <SheetLI label="Cargo" content="Pallets" />
         <Spacer/>
-        <DeliveryStatus/>
+        <ActionMenu></ActionMenu>
 
       </div>
     </div>

@@ -17,7 +17,7 @@ const ChipMenu = (props) => {
         return <Chip id={item.id} name={item.name} key={item.id} onClick={handleChipClick} selected={chipState}/>;
       });
     
-  return <form>{chipContents}</form>;
+  return <form className={classes.chipMenu}>{chipContents}</form>;
 };
 
 export default ChipMenu
