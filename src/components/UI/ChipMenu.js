@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Chip from "./Chip"
-import classes from "./Chipnpm sxMenu.module.css";
+import classes from "./ChipMenu.module.css";
 
 const ChipMenu = (props) => {
 

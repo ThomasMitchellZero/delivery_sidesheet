@@ -1,4 +1,3 @@
-import parentclasses from "./Sidesheet.module.css";
 import classes from "./SidesheetHeader.module.css";
 import { MdClose } from "react-icons/md";
 
@@ -9,7 +8,7 @@ const SidesheetHeader = (props) => {
         <MdClose/>
         </div>
 
-      <p className={parentclasses.header_text}>Delivery Details</p>
+      <p className='header_text'>Delivery Details</p>
     </div>
   );
 };

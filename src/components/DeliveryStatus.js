@@ -1,7 +1,6 @@
 import classes from "./DeliveryStatus.module.css";
 
-import PillMenu from "./UI/PillMenu";
-import Pill from "./UI/Pill";
+import ChipMenu from "./UI/ChipMenu";
 
 const DeliveryStatus = (props) => {
   const pillArray = [
@@ -10,7 +9,7 @@ const DeliveryStatus = (props) => {
     { id: "Late", name: "Late (over 30 mins)" },
   ];
   
-  return <PillMenu array={pillArray}></PillMenu>;
+  return <ChipMenu array={pillArray}></ChipMenu>;
 };
 
 export default DeliveryStatus;
