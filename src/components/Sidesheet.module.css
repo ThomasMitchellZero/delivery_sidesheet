@@ -5,7 +5,7 @@ p{
 .sidesheet{
     display: flex;
     flex-direction: column;
-    width: 40rem;
+    width: 28rem;
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -43,5 +43,6 @@ p{
     font-family: 'Segoe UI';
     font-size: .625rem;
     font-weight: 400;
+    opacity: 70%;
 
 }
