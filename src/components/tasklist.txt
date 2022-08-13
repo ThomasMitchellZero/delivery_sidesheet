@@ -1,0 +1,14 @@
+--General--
+
+-Figure out how to host the app on Github
+-If CSS is not working properly, figure out why
+-Make sure the link is sharable
+
+--In App--
+
+-Styling for chips
+-styling for chip container
+-Add in Cancel + Reason functionality
+-Change "pill" to chip everywhere
+-CSS: how inheritence works, plus when to use strings vs. dynamic names.
+
