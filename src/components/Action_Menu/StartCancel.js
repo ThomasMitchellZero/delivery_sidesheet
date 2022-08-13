@@ -4,7 +4,9 @@ import Button from "../UI/Button";
 const StartCancel = (props) => {
   return (
     <ButtonContainer>
-      <Button></Button>
+      <Button buttonType="tertiary__disabled">Tertiary</Button>
+      <Button buttonType="secondary__disabled">2nd</Button>
+      <Button buttonType="primary__disabled">Cancel Delivery</Button>
     </ButtonContainer>
   );
 };
