@@ -1,0 +1,25 @@
+.pill{
+    border-radius: 222rem;
+    font-family: 'Segoe UI';
+    border: 0rem;
+    padding: .375rem .75rem;                                                                                                                         
+
+
+
+
+
+}
+
+.selected{
+    background-color: blue;
+    color: #fff;
+
+}
+
+.active{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+
+
+}
