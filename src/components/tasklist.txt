@@ -1,7 +1,6 @@
 --General--
 
--If CSS is not working properly, figure out why
--Make a guide
+-Make a guide to how to deploy a React file
 
 --In App--
 
@@ -15,3 +14,4 @@
 --DONE--
 -Make sure the link is sharable
 -Figure out how to host the app on Github
+-If CSS is not working properly, figure out why
