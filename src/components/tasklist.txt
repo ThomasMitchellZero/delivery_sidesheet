@@ -1,14 +1,17 @@
 --General--
 
--Figure out how to host the app on Github
 -If CSS is not working properly, figure out why
--Make sure the link is sharable
+-Make a guide
 
 --In App--
 
+-CSS: figure out how to make all text as Roboto
 -Styling for chips
 -styling for chip container
 -Add in Cancel + Reason functionality
 -Change "pill" to chip everywhere
 -CSS: how inheritence works, plus when to use strings vs. dynamic names.
 
+--DONE--
+-Make sure the link is sharable
+-Figure out how to host the app on Github
