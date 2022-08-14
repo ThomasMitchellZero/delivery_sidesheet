@@ -1,11 +1,11 @@
-import classes from "./ButtonContainer.module";
+import classes from "./ButtonContainer.module.css";
 import Spacer from "./Spacer";
 
 const ButtonContainer = (props) => {
   return (
-    <div>
-      <div className={classes.buttonContainer}>{props.children}</div>;
+    <div className={classes.buttonContainer}>
       <Spacer />
+      <div>{props.children}</div>;
     </div>
   );
 };
