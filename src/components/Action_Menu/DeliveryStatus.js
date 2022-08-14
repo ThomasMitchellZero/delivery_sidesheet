@@ -10,7 +10,7 @@ const DeliveryStatus = (props) => {
   ];
   return (
     <div>
-      <ChipMenu array={chipArray}></ChipMenu>
+      <ChipMenu>{chipArray}</ChipMenu>
       <ButtonContainer>
         <Button buttonType="tertiary__disabled">Tertiary</Button>
         <Button buttonType="secondary__disabled">2nd</Button>

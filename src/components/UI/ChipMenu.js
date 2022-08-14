@@ -13,7 +13,7 @@ const ChipMenu = (props) => {
         setChipState(eTarget)
     }
 
-    const chipContents = props.array.map((item) => {
+    const chipContents = props.children.map((item) => {
         return <Chip id={item.id} name={item.name} key={item.id} onClick={handleChipClick} selected={chipState}/>;
       });
     
